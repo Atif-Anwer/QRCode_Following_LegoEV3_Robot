@@ -32,10 +32,10 @@ The code flow can be generalized as follows:
 	
 1. Get Deviation from center and Direction from KLT tracking
 
-... (a) Find Region of Interest and its center (4x Red Circles in a square) ..
-... (b) Find SURF Feature points (QR Code with 4x Red Circles at the corners) ..
-... (c) Match SURF features with QR Code template in file .. 
-... (d)Continue if QR code found else stop moving ..
+   (a) Find Region of Interest and its center (4x Red Circles in a square)  
+   (b) Find SURF Feature points (QR Code with 4x Red Circles at the corners)  
+   (c) Match SURF features with QR Code template in file  
+   (d)Continue if QR code found else stop moving  
 
 2. Get Values of 5x Ultrasonic sensors from Arduino
 3. Get value from 1x front LEGO ultrasonic sensor
