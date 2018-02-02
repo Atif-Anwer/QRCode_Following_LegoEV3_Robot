@@ -24,7 +24,8 @@ The following hardware are required for use
 
 ![Lego Robot Design](https://i.imgur.com/FAHR3qDl.jpg). 
 
-The QR code used for testing is given below. 
+The QR code used for testing is given below.
+
 ![QR Code](https://i.imgur.com/7hGh1c4m.png)
 
 The design was based on the Ultrasonic sensor driving base design from lego. The PDF design instructions can be downloaded from [Lego Website](https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-ultrasonic-sensor-driving-base-61ffdfa461aee2470b8ddbeab16e2070.pdf)
