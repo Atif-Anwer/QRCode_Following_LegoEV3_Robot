@@ -1,12 +1,13 @@
 # QR Code Following Robot Using Lego Mindstorms EV3, Matlab, Arduino and a Webcam #
 
 ### What is this code for? ###
-The repository is the Matlab code for controlling a robot made with Lego Mindstorms EV3 and controlled with Matlab over a USB cable/Bluetooth dongle. The design of the lego robot is given as below:
+The repository is the Matlab code for controlling a robot made with Lego Mindstorms EV3 and controlled with Matlab over a USB cable/Bluetooth dongle. Right now, the code uses a single ultrasonic sensor from the EV3 brick. The support and code for arduino is included, but was commented out while getting the results posted in the video below.
 
 ### Video Results  ###
 
-[Video Tracking Results](https://youtu.be/pOSssa08bpE) Can be seen at my youtube channel. 
-[![Video Tracking Results](https://img.youtube.com/vi/pOSssa08bpE/0.jpg)](https://www.youtube.com/watch?v=pOSssa08bpE) Can be seen at my youtube channel
+[![Video Tracking Results](https://img.youtube.com/vi/pOSssa08bpE/0.jpg)](https://www.youtube.com/watch?v=pOSssa08bpE) 
+
+The above video is the result of the matlab code and moving the robot in real time. It can also be seen at my youtube channel
 
 ### Hardware and Software requirements? ###
 
@@ -30,10 +31,12 @@ The design was based on the Ultrasonic sensor driving base design from lego. The
 The code flow can be generalized as follows:
 	
 1. Get Deviation from center and Direction from KLT tracking
-	a. Find Region of Interest and its center (4x Red Circles in a square) 
-	b. Find SURF Feature points (QR Code with 4x Red Circles at the corners)
-	c. Match SURF features with QR Code template in file
-	d. Continue if QR code found else stop moving
+
+... (a) Find Region of Interest and its center (4x Red Circles in a square) ..
+... (b) Find SURF Feature points (QR Code with 4x Red Circles at the corners) ..
+... (c) Match SURF features with QR Code template in file .. 
+... (d)Continue if QR code found else stop moving ..
+
 2. Get Values of 5x Ultrasonic sensors from Arduino
 3. Get value from 1x front LEGO ultrasonic sensor
 4. Calculate Direction to turn based on the position of QR code in the field of view
